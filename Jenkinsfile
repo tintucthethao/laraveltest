@@ -1,5 +1,5 @@
 // git repository info
-def gitRepository = 'https://bitbucket.baityapp.online/scm/bait/laravel_image.git'
+def gitRepository = 'https://github.com/tintucthethao/laraveltest.git'
 def gitBranch = 'master'
 
 // Image infor in registry
@@ -7,9 +7,9 @@ def imageGroup = 'hakensystem'
 def appName = "baity_laravel"
 
 // harbor-registry credentials
-def registryCredential = 'dockerhub_leloimr'
+def registryCredential = 'minhlb_docker'
 // github credentials
-def githubCredential = 'github_mrleloi'
+def githubCredential = 'minhlb'
 
 dockerBuildCommand = './'
 def version = "prod-0.${BUILD_NUMBER}"
